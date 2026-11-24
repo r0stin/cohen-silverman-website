@@ -28,8 +28,8 @@ FIRM = {
     "email": "intake@cohensilverman.com",
     "address_1": "390 Bay St., Suite 2000",
     "address_2": "Toronto, ON M5H 1W2",
-    "hours": "Monday to Friday, 8:30 am to 6:00 pm",
-    "hours_short": "Mon to Fri, 8:30 am to 6:00 pm",
+    "hours": "Monday to Friday, 9:00 am to 4:00 pm",
+    "hours_short": "Mon to Fri, 9:00 am to 4:00 pm",
     "hours_note": "Evening appointments by arrangement",
     # Paste a form service URL here (for example a Formspree endpoint) to receive
     # contact form submissions directly. Left empty, the form opens the visitor's
@@ -513,7 +513,7 @@ def firm_jsonld():
         "telephone": FIRM["phone"],
         "email": FIRM["email"],
         "address": {"@type": "PostalAddress", "streetAddress": FIRM["address_1"], "addressLocality": "Toronto", "addressRegion": "ON", "postalCode": "M5H 1W2", "addressCountry": "CA"},
-        "openingHours": "Mo-Fr 08:30-18:00",
+        "openingHours": "Mo-Fr 09:00-16:00",
         "employee": [{"@type": "Person", "name": a["name"], "jobTitle": a["role"]} for a in ATTORNEYS],
     }
     return f'<script type="application/ld+json">{json.dumps(data, ensure_ascii=False)}</script>'
