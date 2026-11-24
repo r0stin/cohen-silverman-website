@@ -30,7 +30,6 @@ FIRM = {
     "address_2": "Toronto, ON M5H 1W2",
     "hours": "Monday to Friday, 9:00 am to 4:00 pm",
     "hours_short": "Mon to Fri, 9:00 am to 4:00 pm",
-    "hours_note": "Evening appointments by arrangement",
     # Paste a form service URL here (for example a Formspree endpoint) to receive
     # contact form submissions directly. Left empty, the form opens the visitor's
     # email app with their message addressed to the email above.
@@ -1294,7 +1293,6 @@ def render_tokens(text):
         "ADDRESS_1": FIRM["address_1"],
         "ADDRESS_2": FIRM["address_2"],
         "HOURS": FIRM["hours"],
-        "HOURS_NOTE": FIRM["hours_note"],
         "FORM_ENDPOINT": FIRM["form_endpoint"],
         "TEAM_GRID": team_grid(),
         "AREA_OPTIONS": area_options(),
