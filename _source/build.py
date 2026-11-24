@@ -25,7 +25,7 @@ FIRM = {
     "name": "Cohen & Silverman Law Firm",
     "phone": "(905) 604-7662",
     "phone_href": "+19056047662",
-    "email": "intake@cohensilverman.com",
+    "email": "cohensilvermanlaw@gmail.com",
     "address_1": "390 Bay St., Suite 2000",
     "address_2": "Toronto, ON M5H 1W2",
     "hours": "Monday to Friday, 9:00 am to 4:00 pm",

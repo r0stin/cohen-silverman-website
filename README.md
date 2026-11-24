@@ -43,7 +43,7 @@ The script rewrites every page, so the header, footer and contact details stay i
 
 Placeholders and assumptions that must be checked:
 
-1. **Contact details.** Phone `(905) 604-7662` is set. Email `intake@cohensilverman.com` is a placeholder until that mailbox exists, the address (390 Bay St., Suite 2000, Toronto) and hours (Monday to Friday, 9 am to 4 pm) are set. Change them in `FIRM` at the top of `_source/build.py`, then rebuild.
+1. **Contact details.** Phone `(905) 604-7662` is set. Email `cohensilvermanlaw@gmail.com`, the address (390 Bay St., Suite 2000, Toronto) and hours (Monday to Friday, 9 am to 4 pm) are set. Change them in `FIRM` at the top of `_source/build.py`, then rebuild.
 2. **Contact form.** No form service is connected yet, so the form opens the visitor's email app with their message filled in. To receive submissions directly, create a form with a service such as Formspree, paste its URL into `form_endpoint` in `FIRM`, and rebuild.
 3. **Headshots.** Done. The four photos are in `assets/img/team/` (`benjamin-cohen.jpg`, `joshua-silverman.jpg`, `rebecca-anderson.jpg`, `noah-katz.jpg`). To change one, replace the file with a new portrait photo of the same name (about 3:4 or 4:5, at least 768 px wide) and rebuild.
 4. **Lawyer titles and bios.** Rebecca Anderson is listed as *Partner* and Noah Katz as *Associate*. Bios describe each lawyer's focus but contain no education, bar admissions or years of practice. Confirm the titles and add credentials.
